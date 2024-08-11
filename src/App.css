@@ -1,3 +1,5 @@
+/* App.css */
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* App.css */
+
+/* Existing styles ... */
+
+.field {
+  border: 1px solid #ccc;
+  padding: 20px; /* Increased padding for better spacing */
+  margin-bottom: 20px; /* Increased margin for better spacing */
+  width: 80%; /* Restrict width to 80% of the container */
+  max-width: 600px; /* Maximum width for larger screens */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  text-align: left; /* Align text to the left inside the field */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* Spacing between labels */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label text */
+}
+
+.field-choice {
+  padding: 10px; /* Increased padding for better usability */
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  cursor: pointer;
+  max-width: 100%; /* Ensure it doesn’t exceed container width */
+  width: auto; /* Allow width to adjust based on content */
+}
+
+.field-choice.selected {
+  background-color: #c0e0c0;
+}
+
+.condition-section {
+  margin-top: 20px;
+  width: 80%; /* Restrict width to 80% of the container */
+  max-width: 600px; /* Maximum width for larger screens */
+  margin-left: auto; /* Center horizontally */
+  margin-right: auto; /* Center horizontally */
+  text-align: left; /* Align text to the left inside the condition section */
+}
+
+.condition-section h5 {
+  display: flex;
+  align-items: center;
+}
+
+.condition-section h5 input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.condition-menu {
+  margin-top: 10px;
+}
+
+.available-conditions {
+  display: flex;
+  flex-direction: column;
+}
+
+.condition-radios {
+  margin-top: 10px;
 }
