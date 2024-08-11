@@ -10,9 +10,8 @@ Before you start, make sure you have the following installed:
 Open a terminal (Command Prompt/PowerShell on Windows, Terminal on macOS/Linux) and navigate to the directory where you want to clone the project.
 
 ```
-git clone https://github.com/yourusername/Form-Builder.git
+git clone https://github.com/hakkajoe/Form-Builder.git
 ```
-Replace yourusername with your GitHub username. This will create a Form-Builder directory in your current location.
 
 ## 2. Navigate to the Project Directory
 Change into the project directory:
